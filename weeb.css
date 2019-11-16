@@ -47,8 +47,6 @@ a{
 
 html
 {
-    background: #353535;
-    background-image: url("img/rbg.jpg");
     position: relative;
     min-width: 1024px;
     min-height: 768px;
@@ -56,8 +54,25 @@ html
     font-family: 'Comic Sans MS', sans-serif;
     margin: 0px;
     padding: 0px;
+
+
+background: linear-gradient(179deg, #ff0000, #ffb600, #eeff00, #0dff00, #00fdff, #001cff, #a300ff, #c500ff);
+background-size: 1600% 1600%;
+
+-webkit-animation: rainbowAnim 9s ease infinite;
+animation: rainbowAnim 9s ease infinite;
 }
 
+@-webkit-keyframes rainbowAnim {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes rainbowAnim {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
 
 .ramka
 {
