@@ -24,9 +24,10 @@
     margin-right:auto;
 }
 
-a.sel{
-    font-weight: bold
+a:hover{
+    color: #00bdbd
 }
+
 p.sep{
     display: inline;
 }
