@@ -28,6 +28,10 @@ a:hover{
     color: #00bdbd
 }
 
+a.bod:hover{
+    color: #006060
+}
+
 p.sep{
     display: inline;
 }
@@ -37,7 +41,12 @@ li{
 }
 
 a{
-    color: #25FFFF;
+    color: #23fefe;
+    text-decoration: none;
+}
+
+a.bod{
+    color: #00c6c6;
     text-decoration: none;
 }
 
